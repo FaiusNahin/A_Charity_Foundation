@@ -1,10 +1,10 @@
 # A Charity Foundation React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App  & Live Site [Link](https://charity-foundation-f06a39.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can find:
 
 ### `npm start`
 
