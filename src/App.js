@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/Header/Header';
+import Members from './components/Members/Members';
 
 function App() {
   return (
     <div>
-      <h2>Headers</h2>
+      <Header></Header>
+      <Members></Members>
     </div>
   );
 }
