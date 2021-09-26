@@ -8,21 +8,16 @@ In the project directory, you can find:
 
 ### `A Charity Foundation`
 
-If you run this app you will find a Charity Foundation which is works \
-for Child Education Development from diffrent Countries.
+If you run this app you will find a Charity Foundation which is works for\
+Child Education Development from diffrent Countries.
 
 
-### `npm test`
+### `Donor List`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You also see some honorable Dnor's of our Fundation.\
+This group of poeple works with us for almost 1.5 years.
 
-### `npm run build`
+### `Donation`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Our Donor's are made some charity for Child Learning.\
+If you want do some charity you are also welcomed!!
