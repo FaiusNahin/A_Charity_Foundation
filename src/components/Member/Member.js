@@ -1,23 +1,28 @@
 import React from 'react';
-import './Member.css'
+import './Member.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDonate } from '@fortawesome/free-solid-svg-icons';
 
 const Member = (props) => {
     // console.log(props.member);
     const { name, born, image, company, bio, donation } = props.member;
+    const element = <FontAwesomeIcon icon={faDonate} />
+
     return (
         <div className="member">
             <div>
                 <img className="member-img" src={image} alt="" />
             </div>
             <div className="member-details">
-                <h2>{name}</h2>
-                <p>{born}</p>
-                <small>works in: <h3 style={{ display: 'inline-block' }}>{company}</h3></small>
-                <p>Donate: ${donation}</p>
+                <h2 className="name">{name}</h2>
+                <p className="birth-date">born in: <span style={{ fontSize: '17px' }}>{born}</span></p>
+                <p>works in: <span className="company">{company}</span></p>
+                <p>Donate: <span style={{ fontSize: '20px' }}>${donation}</span></p>
                 <p>{bio.slice(0, 100)}</p>
-                <button onClick={() => props.handleAddToDonationCart(props.member)}>add donation</button>
+
+                <button className="member-btn" onClick={() => props.handleAddToDonationCart(props.member)}>{element} add donation</button>
             </div>
-        </div>
+        </div >
     );
 };
 

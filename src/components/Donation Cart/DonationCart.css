@@ -1,0 +1,27 @@
+.donation-title{
+    font-size:30px;
+    color:#475d57;
+}
+.donation-details{
+    color:#97A663;
+}
+.added-names{
+    display: flex;
+    margin-left:8%;
+}
+.name-title{
+    font-size:22px;
+    font-weight:400;
+    color:#475d57;
+}
+.donor-list{
+    padding: 0px;
+    padding-left:10px;
+    margin: 16px 0px ;
+}
+.donor-name{
+    list-style: none;
+    font-size:30px;
+    font-weight:500;
+    color:#97A663;
+}

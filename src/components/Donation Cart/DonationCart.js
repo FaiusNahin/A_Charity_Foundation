@@ -10,18 +10,21 @@ const DonationCart = (props) => {
 
     return (
         <div>
-            <h2>Added people: {donationCart.length}</h2>
-            <h2>Total Donation: ${total.toFixed(2)}</h2>
-            <div className="Name">
+            <h2 className="donation-title">
+                People Donated: <span className="donation-details">{donationCart.length}</span></h2>
+            <h2 className="donation-title" style={{ marginBottom: '0px' }}>
+                Total Donation: <span className="donation-details">${total.toFixed(2)}</span></h2>
+            <div className="added-names">
                 <div>
-                    <p>name:</p>
+                    <p className="name-title">Name:</p>
                 </div>
                 <div>
                     {
                         donationCart.map(member => {
                             return (
-                                <ul>
-                                    <li>{member.name}</li>
+
+                                <ul className="donor-list">
+                                    <li className="donor-name">{member.name}</li>
                                 </ul>
                             )
                         })
