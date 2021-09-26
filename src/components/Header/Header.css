@@ -1,12 +1,14 @@
+/* header */
 .header{
     padding: 20px 0px;
     text-align: center;
     background-color: #31403C;
     color: #D9D9D9;
 }
+/* Header Text Design */
 .header h1{
     margin: 15px;
-    font-size:48px;
+    font-size:49px;
     font-weight: 400;
 }
 .header p{

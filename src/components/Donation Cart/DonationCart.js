@@ -3,12 +3,15 @@ import './DonationCart.css';
 
 const DonationCart = (props) => {
     const { donationCart } = props;
+
+    // Calculate Total Donation
     let total = 0;
     for (const member of donationCart) {
         total = total + member.donation;
     }
 
     return (
+        // Total Donor's and Total Donation
         <div className="container">
             <h2 className="donation-title">
                 People Donated: <span className="donation-details">{donationCart.length}</span></h2>
@@ -18,12 +21,14 @@ const DonationCart = (props) => {
                 <div>
                     <p className="name-title">Name:</p>
                 </div>
-                <div>
+                {/* Donor's Name */}
+                <div style={{ textAlign: 'left' }}>
                     {
                         donationCart.map(member => {
                             return (
-
-                                <ul className="donor-list">
+                                <ul
+                                    key={member.ceoId}
+                                    className="donor-list">
                                     <li className="donor-name">{member.name}</li>
                                 </ul>
                             )

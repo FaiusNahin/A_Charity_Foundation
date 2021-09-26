@@ -7,11 +7,14 @@ const Members = () => {
     const [members, setmembers] = useState([]);
     const [donationCart, setDonationCart] = useState([]);
 
+    // Load Data
     useEffect(() => {
         fetch('./charity.JSON')
             .then(res => res.json())
             .then(data => setmembers(data))
     }, []);
+
+    // add donation button eventhandler
     const handleAddToDonationCart = member => {
         if (!donationCart.includes(member)) {
             const newdonationCart = [...donationCart, member];
@@ -21,7 +24,9 @@ const Members = () => {
     }
 
     return (
+        // Main Part
         <div className="charity-container">
+            {/* Members Details Part*/}
             <div className="members-container">
                 {
                     members.map(member => <Member
@@ -31,6 +36,7 @@ const Members = () => {
                     ></Member>)
                 }
             </div>
+            {/* Total Donation Cart*/}
             <div className="cart-container">
                 {
                     <DonationCart donationCart={donationCart}></DonationCart>

@@ -1,8 +1,10 @@
+/* Main Part */
 .charity-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-top: 15px;
 }
+/* Members Details */
 .members-container{
     display: grid;
     grid-template-columns:repeat(3,1fr);
@@ -13,6 +15,7 @@
     background-color:#D9D9D9;
     border-radius:10px;
 }
+/* Total Donation */
 .cart-container{
     background-color:#D9D9D9;
     text-align: center;

@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDonate } from '@fortawesome/free-solid-svg-icons';
 
 const Member = (props) => {
-    // console.log(props.member);
     const { name, born, image, company, bio, donation } = props.member;
     const element = <FontAwesomeIcon icon={faDonate} />
 
+    // Show Members Details
     return (
         <div className="member">
             <div>
@@ -20,6 +20,7 @@ const Member = (props) => {
                 <p>Donate: <span style={{ fontSize: '20px' }}>${donation}</span></p>
                 <p>{bio.slice(0, 100)}</p>
 
+                {/* add donation button */}
                 <button className="member-btn" onClick={() => props.handleAddToDonationCart(props.member)}>{element} add donation</button>
             </div>
         </div >

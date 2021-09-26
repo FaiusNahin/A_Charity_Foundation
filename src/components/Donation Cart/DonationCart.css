@@ -1,3 +1,4 @@
+/* Donation Cart */
 .container{
     position: sticky;
     top: 50px;
@@ -9,15 +10,17 @@
 .donation-details{
     color:#97A663;
 }
+/*  Dononr Member Name */
 .added-names{
     display: flex;
     margin-left:8%;
 }
 .name-title{
-    font-size:22px;
+    font-size:23px;
     font-weight:400;
     color:#475d57;
 }
+/* Donor's List */
 .donor-list{
     padding: 0px;
     padding-left:10px;
@@ -25,7 +28,7 @@
 }
 .donor-name{
     list-style: none;
-    font-size:30px;
+    font-size:28px;
     font-weight:500;
     color:#97A663;
 }
