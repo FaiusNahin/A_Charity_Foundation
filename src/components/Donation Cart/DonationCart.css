@@ -1,5 +1,9 @@
+.container{
+    position: sticky;
+    top: 50px;
+}
 .donation-title{
-    font-size:30px;
+    font-size:29px;
     color:#475d57;
 }
 .donation-details{

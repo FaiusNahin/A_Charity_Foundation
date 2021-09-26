@@ -1,18 +1,22 @@
 .charity-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color:#D9D9D9;
     padding-top: 15px;
 }
 .members-container{
-    padding:3% 4%;
-    border-right: 1px solid #31403c49;
     display: grid;
     grid-template-columns:repeat(3,1fr);
-    grid-row-gap: 50px;
-    grid-column-gap: 55px;
+    grid-row-gap: 45px;
+    grid-column-gap: 50px;
+    margin:1.5%;
+    padding:3%;
+    background-color:#D9D9D9;
+    border-radius:10px;
 }
 .cart-container{
+    background-color:#D9D9D9;
     text-align: center;
-    padding-top:40px;
+    padding-top:30px;
+    margin:6% 2%;
+    border-radius:10px;
 }

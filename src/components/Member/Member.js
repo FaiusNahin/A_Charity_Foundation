@@ -15,7 +15,7 @@ const Member = (props) => {
             </div>
             <div className="member-details">
                 <h2 className="name">{name}</h2>
-                <p className="birth-date">born in: <span style={{ fontSize: '17px' }}>{born}</span></p>
+                <p className="birth-date">born in: <span style={{ fontSize: '18px' }}>{born}</span></p>
                 <p>works in: <span className="company">{company}</span></p>
                 <p>Donate: <span style={{ fontSize: '20px' }}>${donation}</span></p>
                 <p>{bio.slice(0, 100)}</p>

@@ -9,7 +9,7 @@ const DonationCart = (props) => {
     }
 
     return (
-        <div>
+        <div className="container">
             <h2 className="donation-title">
                 People Donated: <span className="donation-details">{donationCart.length}</span></h2>
             <h2 className="donation-title" style={{ marginBottom: '0px' }}>
