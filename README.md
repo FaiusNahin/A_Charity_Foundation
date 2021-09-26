@@ -1,18 +1,16 @@
 # A Charity Foundation React App
 
-This project was bootstrapped with Create React App  & Live Site [Link](https://charity-foundation-f06a39.netlify.app/).
+This project was bootstrapped with Create React App & Live Site [Link](https://charity-foundation-f06a39.netlify.app/).
 
-## Available Scripts
+## Available Terms
 
 In the project directory, you can find:
 
-### `npm start`
+### `A Charity Foundation`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you run this app you will find a Charity Foundation which is works \
+for Child Education Development from diffrent Countries.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
